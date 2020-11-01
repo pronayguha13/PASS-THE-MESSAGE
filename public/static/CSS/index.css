@@ -1,7 +1,33 @@
 /* this file is to be linked with index.html */
-body {
-  margin: 0 40%;
+#root {
+  margin: auto;
+  width: 50%;
+  border: 10px solid #3b5441;
+  background-color: #2cb978;
 }
 p {
   font-size: 30px;
+  text-align: center;
+  color: #107a8b;
+}
+#lastDeliveryMessageText {
+  margin-top: 0;
+}
+#message-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 20px;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 20%;
+  line-height: 20px;
+  border: 1px solid white;
+  border-radius: 10%;
+  background-color: #2e8b57;
 }
