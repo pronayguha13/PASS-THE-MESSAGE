@@ -1,15 +1,14 @@
 //get the submit button
 const submitBtn = document.getElementById("submitButton");
-console.log("submitBtn", submitBtn);
 const inputBox = document.getElementById("messageBox");
-//assign the  handler function on enter key press
+//assign the  handler function on onEnterKeyPress in the input field
 inputBox.addEventListener("keypress", (e) => {
   //detects whether the key pressed is Enter key or not
   if (e.key === "Enter") {
-    onSubmitHandler();
+    onSubmitHandler(); //call  to the onSubmitHandler() function on enter key pess
   }
 });
-//define function for onclick handler of the submit button and onEnterKeyPress in the input field
+//define function for onclick handler of the submit button
 const onSubmitHandler = () => {
   //get the span element where messages will be displayed
   const previousMessageContainer = document.getElementById(

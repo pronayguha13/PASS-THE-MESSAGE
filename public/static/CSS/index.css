@@ -35,6 +35,8 @@ button {
 }
 
 #previousMessageContainer {
-  font-size: 1.2rem;
+  font-family: "Trispace", sans-serif;
+  font-size: 1.8 rem;
   padding-bottom: 10px;
+  color: #14274e;
 }
