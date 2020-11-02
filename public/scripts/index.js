@@ -17,7 +17,7 @@ const onSubmitHandler = () => {
   );
   previousMessageContainer.innerHTML = inputBox.value
     ? inputBox.value
-    : alert("Please Enter a message to pass");
+    : "No Message";
 };
 //assign the function to the  submit button onclick
 submitBtn.addEventListener("click", onSubmitHandler); //the eventlistener takes reference of the handler function or an anonyous function

@@ -4,6 +4,7 @@
   width: 50%;
   border: 10px solid #3b5441;
   background-color: #2cb978;
+  text-align: center;
 }
 p {
   font-size: 30px;
@@ -12,6 +13,7 @@ p {
 }
 #lastDeliveryMessageText {
   margin-top: 0;
+  margin-bottom: 10px;
 }
 #messageBox {
   display: block;
@@ -30,4 +32,9 @@ button {
   border: 1px solid white;
   border-radius: 10%;
   background-color: #2e8b57;
+}
+
+#previousMessageContainer {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
 }
